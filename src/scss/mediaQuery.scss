@@ -1,0 +1,35 @@
+@media screen and (max-width: 1024px) {
+  .movie-section {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .icon {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .movie-section {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .icon {
+    width: 70%;
+  }
+
+  .details {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 535px) {
+  .movie-section {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .movie-section {
+    grid-template-columns: 1fr;
+  }
+}

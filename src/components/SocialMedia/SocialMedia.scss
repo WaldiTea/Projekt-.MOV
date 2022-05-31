@@ -1,0 +1,16 @@
+@import '../../scss/variables.scss';
+
+.icon-wrapper {
+  display: flex;
+  gap: 2rem;
+  justify-self: center;
+  
+  .icon {
+    cursor: pointer;
+    transition: transform 0.3s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}

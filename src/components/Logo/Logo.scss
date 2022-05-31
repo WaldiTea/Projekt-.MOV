@@ -1,0 +1,23 @@
+@import "../../scss/variables.scss";
+
+.logo {
+  font-size: clamp(2rem, 4vw, 3.25rem);
+
+  .logo-content {
+    width: max-content;
+    transition: color 0.3s;
+    cursor: pointer;
+
+    &:hover {
+      color: $blend-green;
+    }
+
+    &:before {
+      content: "";
+      display: inline-block;
+      width: 0.15em;
+      height: 0.15em;
+      background-color: $blend-green;
+    }
+  }
+}

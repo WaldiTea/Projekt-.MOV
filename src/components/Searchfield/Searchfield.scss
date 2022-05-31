@@ -1,0 +1,17 @@
+@import "../../scss/variables.scss";
+
+.form {
+  justify-self: center;
+
+  .search-field {
+    background: $light-dark url(../../assets/images/search-icon.png) 1em / 1.5em
+      no-repeat;
+    color: #fff;
+    width: 22em;
+    outline: none;
+    font-size: clamp(0.6rem, 2vw, 1.25rem);
+    border: none;
+    border-radius: 1.5em;
+    padding: 0.75em 3.5em;
+  }
+}
